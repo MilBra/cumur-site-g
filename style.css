@@ -1,0 +1,269 @@
+/*
+CSS ORGANIZATION
+- Logo
+- Navigation
+- Carousel
+- Services and boxes
+
+*/
+
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Baloo Bhai', cursive;
+
+}
+
+.header {
+	background-color:#313131;
+}
+
+p, a {
+	color:#676767;
+	text-decoration: none;
+}
+
+a:hover {
+	color:orange;
+	transition:all ease 500ms;
+}
+
+
+/***********LOGO**********/
+
+.logo img {
+	display: block;
+	margin: 0px auto;
+	padding: 12px 0px;
+}
+
+/***********NAVIGATION**********/
+
+nav {
+	text-align: center;
+	background-color: #313131;
+}
+
+nav ul {
+	padding-top: 16px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style:none;
+}
+
+nav ul li a {
+	padding: 15px;
+	color:#d0d0d0;
+	overflow: hidden;
+	text-transform: uppercase;
+	transition:all ease 500ms;
+}
+
+nav ul li a:hover {
+	background: #313131;
+	color:orange;
+	transition:all ease 500ms;
+}
+
+/*********** MAIN - CAROUSEL**********/
+
+
+
+.main {
+	/*
+	background-image: url(img/2.jpg);
+	background-size: cover;
+	background-position: center;
+	*/
+	padding: 30px 0px 80px;
+}
+
+.info {
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	margin: 0px auto;
+	/*
+	background: rgba(218, 218, 218, 0.25);
+	border-radius: 20px;
+	*/
+}
+
+.info img {
+	display: block;
+	margin:-40px auto 0px;
+	padding: 10px 5px;
+	width: 70%;
+}
+
+.info h1 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-top: 2px;
+}
+
+.info h3 {
+	font-size: 22px;
+}
+
+
+
+/**SERVICES AND BOXES**/
+
+.services {
+	background: #d2d2d2;
+	padding: 80px 0px;
+	margin: 0px auto;
+}
+
+.boxes {
+	overflow: hidden;
+	width: 80%;
+	margin: 0px auto;
+}
+
+.boxes h2 {
+	font-size: 35px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.box {
+	padding: 20px;
+	margin-right: 20px;
+	float: left;
+	width: 28%;
+}
+
+.box span {
+	color: #676767;
+    padding-right: 10px;
+    border-right: 5px solid #676767;
+    margin-right: 5px;
+}
+
+.box p {
+	padding-bottom: 60px;
+}
+
+.box p, .box h3 {
+	padding-left: 45px;
+}
+
+.box img {
+	width:250px;
+	display: block;
+	margin: 0px auto;
+}
+
+.end-box {
+	margin-right: 0px;
+}
+
+/********CALL TO ACTION SECTION**********/
+
+.action {
+	padding: 80px 0px;
+	text-align: center;
+	background-color: #313131;
+}
+
+.action h3 {
+    padding-bottom: 40px;
+    color: white;
+    font-size: 28px;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+.action a {
+	padding: 20px 50px;
+	background:#868686;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 22px;
+	transition:all ease 500ms;
+}
+
+.action a:hover {
+	background: orange;
+	transition:all ease 500ms;
+}
+
+/***********FOOTER****************/
+
+.footer {
+	background-color: white;
+    padding: 30px 0px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.footer h5 {
+	border-bottom: 2px solid #676767;
+	padding: 10px 0px;
+	font-size: 18px;
+}
+
+.footer-box {
+	text-align: left;
+    margin-right: 30px;
+    padding: 0px 55px;
+    width: 310px;
+    display: inline-block;
+}
+
+.footer-box-end {
+	border-right: 0px;
+	margin-right: 0px;
+}
+
+.credits p {
+	text-align: center;
+	font-size: 14px;
+	color:#d0d0d0;
+	padding: 0px;
+	background-color:#313131;
+	margin: 0px;
+}
+
+/*CONTAINER FOR ALL OTHER PAGE EXEPT HOMEPAGE*/
+
+.container {
+	width: 50%;
+	padding: 20px;
+	margin: 0px auto;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+.container b {
+	font-size: 20px;
+    border-bottom: 3px solid #313131;
+}
+
+/** MAP SECTION ****/
+
+.mapa {
+	margin-top: 30px;
+}
+
+.mapa iframe {
+	width: 100%;
+}
+
+.mapa h3 {
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 24px;
+}
